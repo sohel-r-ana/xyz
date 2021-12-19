@@ -1,0 +1,652 @@
+body
+{
+    margin: 1px;
+    background-color: rgb(22, 22, 22);
+}
+
+.bodd
+{
+    width: 100%;
+    aspect-ratio: 10/13;
+    transform:rotate(0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+    animation: 50s boddd;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes boddd
+{
+    0% 
+    {
+        background-color: white;
+    }
+    99%
+    {
+        background-color: rgb(58, 58, 58);
+    }
+}
+
+.circle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(0);
+    background-color: rgb(82, 81, 81);
+    overflow: hidden;
+    width: 60%;
+    aspect-ratio: 5/5;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(0, 0, 0),
+    0 0 20px rgb(15, 15, 15);
+
+    opacity: 0%;
+
+    animation:30s animate  ;
+    animation-iteration-count: 1;
+    
+}
+
+@keyframes animate
+
+{   
+    0%
+    {
+        transform: rotate(45deg);
+    }
+   3%
+    {
+        transform: rotate(45deg);
+        opacity: 100%;
+    }
+    14%
+    {
+        opacity: 100%;
+        transform: rotate(0deg);
+     }
+
+     66.66%
+     {
+        width: 60%;
+        aspect-ratio: 5/5;
+        /* border-radius: 50%; */
+     }
+     80%
+    {
+        border-radius: 50%;
+    }
+
+     100%
+     {
+         width: 100%;
+         aspect-ratio: 10/13;
+         opacity: 100%;
+         border-radius: 0%;
+     }
+
+
+
+
+}
+
+
+
+
+
+
+div
+{
+    aspect-ratio: 5/5;
+    width: 50%;
+    
+    position: absolute;
+    
+    
+}
+.a
+{
+    animation-iteration-count: 1;
+    box-shadow: 0 0 15px rgb(22, 142, 255),
+    0 0 20px rgb(22, 142, 255);
+    background-color: rgb(255, 255, 255);
+    transform: rotate(45deg);
+    top: 25%;
+        left: -70%;
+    animation: aa 20s linear ;
+}
+@keyframes aa 
+{
+    0%{ top: 25%;
+        left: -10.5%;
+    }
+    20%{
+        top: 25%;
+        left: -10.5%;
+    }
+    100%{
+        top: 25%;
+        left: -70%;
+    }
+}
+.b
+{
+    animation-iteration-count: 1;
+    box-shadow: 0 0 15px rgb(22, 142, 255),
+    0 0 20px rgb(22, 142, 255);
+    background-color: rgb(255, 255, 255);
+    transform: rotate(45deg);
+    top: 25%;
+    left: 119.5%;
+    animation: bb 20s linear ;
+
+}
+@keyframes bb 
+{
+    0%{ top: 25%;
+        left: 60%;
+    }
+    20%{
+        top: 25%;
+    left: 60%;
+    }
+    100%{
+        top: 25%;
+    left: 119.5%;
+    }
+}
+.c 
+{
+    animation-iteration-count: 1;
+    box-shadow: 0 0 15px rgb(22, 142, 255),
+    0 0 20px rgb(22, 142, 255);
+    background-color: rgb(255, 255, 255);
+    transform: rotate(45deg);
+    top: -70%;
+    left: 24.7%;
+    animation: cc 20s linear ;
+}
+@keyframes cc 
+{
+    0%{ top: -10.5%;
+        left: 24.7%;
+    }
+    20%{
+        top: -10.5%;
+    left: 24.7%;
+    }
+    100%{
+        top: -70%;
+    left: 24.7%;
+    }
+}
+.d
+{
+    animation-iteration-count: 1;
+    box-shadow: 0 0 15px rgb(22, 142, 255),
+    0 0 20px rgb(22, 142, 255);
+    background-color: rgb(255, 255, 255);
+    transform: rotate(45deg);
+    top: 119.8%;
+    left: 24.7%;
+    animation: dd 20s linear ;
+}
+@keyframes dd 
+{
+    0%{ top: 60.3%;
+        left: 24.7%;
+    }
+    20%{
+        top: 60.3%;
+    left: 24.7%;
+    }
+    100%{
+        top: 119.8%;
+    left: 24.7%;
+    }
+}
+    
+.e 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    box-shadow: 0 0 5px rgb(46, 46, 46), 15px 15px 8px rgb(54, 54, 54), 0 0 15px black;
+    background-color: rgb(36, 36, 36);
+    opacity: 0%;
+    position: absolute;
+    left: 0%;
+    transform: rotate(0deg);
+    animation: 20s ee ;
+    animation-delay: 30s;
+
+}
+@keyframes ee 
+
+{
+    20%
+    {
+        opacity: 100%;
+    }
+
+    30%
+    {
+        left: 0%;
+
+    }
+    31%
+    {
+        box-shadow: 0 0 5px rgb(46, 46, 46), 15px 15px 8px rgb(54, 54, 54), 0 0 15px black;
+    }
+    100%
+    {
+        box-shadow: 0 0 5px rgb(46, 46, 46), 15px 15px 8px rgb(54, 54, 54), 0 0 15px black;
+        left: -53%;
+        opacity: 100%;
+    }
+
+
+}
+
+.f 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    box-shadow: 0 0 5px black, 0 0 15px black;
+    background-color: rgb(36, 36, 36);
+    opacity: 0%;
+    position: absolute;
+    left: 50%;
+    transform: rotate(0deg);
+    animation: 20s ff ;
+    animation-delay: 30s;
+}
+@keyframes ff 
+
+{
+    20%
+    {
+        opacity: 100%;
+    }
+
+    30%
+    {
+        left: 50%;
+    }
+    100%
+    {
+        left: 101%;
+        opacity: 100%;
+    }
+
+
+}
+
+.WELL
+{
+    opacity: 0%;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-style: saira stencil one;
+    position: absolute;
+    
+    text-shadow: 3px 3px 3px rgb(204, 204, 204);
+    animation: 5s well ;
+    animation-iteration-count: 1;
+    animation-delay: 31s;
+
+}
+@keyframes well 
+{
+     0%
+    {
+        top: 20%;
+        opacity: 0%;
+
+    }
+
+    30%
+    {
+        opacity: 100%;
+        top: 41.5%;
+    }
+    70%
+    {
+        opacity: 100%;
+        top: 41.5%;
+    }
+    100%
+    {
+        opacity: 0%;
+        top: 60%;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+.g
+{
+    opacity: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 1%;
+    background-color: black;
+    box-shadow: 8px 8px 10px rgb(29, 29, 29);
+    animation: 4s loadi ;
+    animation-iteration-count: 1;
+    animation-delay: 50s;
+}
+@keyframes loadi 
+{
+    
+    10%
+    {
+        opacity: 100%;
+    }
+    100%
+    {
+        opacity: 100%;
+    }
+}
+.h
+{
+    opacity: 0%;
+    width: 100%;
+    height: 80%;
+    background-color: yellow;
+    left: 1px;
+    box-shadow: 0 0 10px yellow;
+    animation: 3s loading ;
+    animation-iteration-count: 1;
+    animation-delay: 51s;
+}
+
+@keyframes loading 
+{
+    0%
+    {
+        opacity: 100%;
+        width: 0%;
+
+    }
+    23%
+    {
+        width: 23%;
+    }
+    50%
+    {
+        width: 30%;
+    }
+    60% 
+    {
+        width: 32%;
+    }
+    100%
+    {
+        opacity: 100%;
+        width: 100%;
+    }
+}
+.user
+{
+    color: rgb(221, 221, 221);
+    font-size: 20px;
+    text-shadow: 4px 4px 3px rgb(32, 32, 32);
+    position: absolute;
+    top: 42%;
+    opacity: 0%;
+    animation: 4s loadi ;
+    animation-iteration-count: 1;
+    animation-delay: 50s;
+    
+}
+.ppass
+{
+    opacity: 0%;
+    color: rgb(221, 221, 221);
+    font-size: 20px;
+    text-shadow: 4px 4px 3px rgb(32, 32, 32);
+    position: absolute;
+    top: 42%;
+    animation: 6s pass ;
+    animation-iteration-count: 1;
+    animation-delay: 55s;
+}
+.i
+{
+    opacity:0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 1%;
+    background-color: black;
+    box-shadow: 8px 8px 10px rgb(29, 29, 29);
+    animation: 3s pass ;
+    animation-iteration-count: 1;
+    animation: 6s pass ;
+    animation-iteration-count: 1;
+    animation-delay: 55s;
+}
+@keyframes pass 
+{
+    0%
+    {
+        opacity: 0%;
+    }
+    10% 
+    {
+        opacity: 100%;
+    }
+    100%
+    {
+        opacity: 100%;
+    }
+}
+
+
+
+
+.j
+{
+    opacity: 0%;
+    width: 100%;
+    height: 80%;
+    background-color: yellow;
+    left: 1px;
+    box-shadow: 0 0 10px yellow;
+    animation: 3s passs ;
+    animation-iteration-count: 1;  
+    animation: 5.5s passs ;
+    animation-iteration-count: 1;
+    animation-delay: 55.5s;
+}
+@keyframes passs
+{
+
+    0%
+    {
+        opacity: 100%;
+        width: 0%;
+    }
+    10% 
+    {
+        width: 30%;
+    }
+    20%
+    {
+        width: 30%;
+    }
+    30% 
+    {
+        width: 35%;
+    }
+    50% 
+    {
+        width: 60%;
+    }
+    75% 
+    {
+        width: 75%;
+        background-color: yellow;
+    }
+    90% 
+    {
+        width: 80%;
+        background-color: rgb(255, 40, 40);
+    }
+    100% 
+    {
+        width: 100%;
+        opacity: 100%;
+        background-color: rgb(255, 0, 0);
+    }
+
+
+}
+
+.one 
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0%;
+  font-size: 50px;
+  color: white;
+  animation: 3s w ;
+  text-shadow: 5px 5px 3px rgb(36, 36, 36);
+  animation-iteration-count: 1;
+  animation-delay: 63s;
+}
+@keyframes w 
+{
+   40% 
+    {
+        opacity: 100%;
+    }
+    60%
+    {
+        opacity: 100%;
+    }
+    100%
+    {
+        opacity: 0%;
+        font-size: 75px;
+        text-shadow: 20px 20px 10px rgb(36, 36, 36);
+    }
+}
+.two
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0%;
+  font-size: 50px;
+  color: white;
+  animation: 3s w ;
+  animation-iteration-count: 1;
+  animation-delay: 67s;
+}
+.three
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0%;
+  font-size: 50px;
+  color: white;
+  animation: 3s w ;
+  animation-iteration-count: 1;
+  animation-delay: 71s;
+}
+.four
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0%;
+  font-size: 50px;
+  color: rgb(255, 0, 0);
+  animation: 5s w ;
+  animation-iteration-count: 1;
+  animation-delay: 75s;
+}
+.five
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0%;
+  font-size: 50px;
+  color: rgb(255, 0, 0);
+  animation: 3s w ;
+  animation-iteration-count: 1;
+  animation-delay: 81s;
+}
+
+/* .end
+{
+    width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid red;
+   
+} */
+span {
+    content: "\26A0";
+    font-size: 200px;
+    color: red;
+    text-shadow: 20px 20px 10px rgb(0, 0, 0);
+    animation: 85s hee;
+    animation-iteration-count: 1;
+
+  }
+  @keyframes hee 
+  {
+      0%
+      {
+          opacity: 0%;
+      }
+      100%
+      {
+          opacity: 0%;
+      }
+  }
+  .end
+  {
+      position: absolute;
+      top: 58%;
+      font-size: 40px;
+      color: rgb(255, 0, 0);
+      animation: 85s hee;
+    animation-iteration-count: 1;
+    text-shadow: 20px 20px 10px rgb(0, 0, 0),
+     0 0 1px rgb(255, 111, 111);
+  }
